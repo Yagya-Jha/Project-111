@@ -66,7 +66,7 @@ def setup():
     if sample_mean > population_mean:
         print("Intervention is successful")
 
-    z_score = (population_mean - sample_mean)/population_standard_devaiation
+    z_score = (sample_mean - population_mean)/population_standard_devaiation
     print("Z score of data = ", z_score)
 
 setup()
